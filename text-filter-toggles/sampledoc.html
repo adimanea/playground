@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Sample document</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"></style>
+</head>
+<body>
+
+    <div class="math easy toc" id="main">
+        <h1>Heading 1</h1>
+        <p>
+            This is a paragraph that has the "math", "easy" and "toc" class names,
+            meaning that its content will be math-based, it is generally easy content
+            and it is to be included in the TOC of the document.
+
+            The ID for the paragraph is "main", meaning that it is core content.
+        </p>
+    </div>
+
+    <div class="math hard toc" id="main">
+        <h2>Heading 2</h2>
+        <p>
+            This is a paragraph that has the "math", "hard" and "toc" class names,
+            meaning that its content will be math-based, it is generally hard content
+            and it is to be included in the TOC of the document.
+
+            The ID for the paragraph is "main", meaning that it is core content.
+        </p>
+    </div>
+
+    <div class="philosophy easy extra" id="secondary">
+        <h3>Heading 3</h3>
+        <p>
+            This is a paragraph that has the "philosophy", "easy" and "extra" class
+            names, meaning that its content will be philosophy-based, it is generally
+            easy content and it is not necessarily included in the core TOC of the document.
+
+            The ID for the paragraph is "secondary", meaning that it is NOT core content.
+        </p>
+    </div>
+
+    <div class="math easy" id="todo">
+        <h7>TODO: Something</h7>
+        <p>
+            This is a paragraph that has the "math" and "easy" class names,
+            but it is a TODO paragraph.
+        </p>
+    </div>
+
+    <div class="always" id="notoggle">
+        <p>
+            This paragraph has the "always" class name, meaning that it will not show up
+            as toggle-able and instead it will be always shown.
+        </p>
+    </div>
+
+</body>
+</html>
