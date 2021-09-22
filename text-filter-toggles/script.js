@@ -25,3 +25,7 @@ document.getElementById("checkboxes").appendChild(label);
 // - make the checkboxes work as show/hide
 // - create 2 additional CBs: "show all", "show TOC"
 // - add some kind of visual cues;
+
+// select all divs whose class contains "filter"
+const allDivClasses = document.querySelectorAll("[class*='filter']");
+allDivClasses.forEach(node => {console.log(node)}); // PRINTS THE WHOLE DIV
